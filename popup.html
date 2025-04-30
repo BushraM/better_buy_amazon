@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Better Buy - Price Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="product-info" class="hidden">
+      <h2 id="product-title"></h2>
+      <div class="price-info">
+        <div class="current-price">
+          <span>Current Price:</span>
+          <span id="current-price"></span>
+        </div>
+        <div class="best-price">
+          <span>Best Price Found:</span>
+          <span id="best-price"></span>
+        </div>
+      </div>
+      <div class="seller-info">
+        <span>Seller:</span>
+        <span id="seller-name"></span>
+      </div>
+      <div class="actions">
+        <button id="track-btn" class="primary-btn">Track This Item</button>
+        <button id="compare-btn" class="secondary-btn">Compare Prices</button>
+      </div>
+    </div>
+    <div id="no-product" class="message">
+      <p>No product detected on this page.</p>
+      <p>Please navigate to an Amazon product page to use this extension.</p>
+    </div>
+    <div id="tracked-items" class="tracked-items">
+      <h3>Tracked Items</h3>
+      <div id="tracked-list"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="8" cy="8" r="7.5" fill="#007bff"/>
+  
+  <!-- Simplified price tag -->
+  <path d="M8 3 L12 7 L8 11 L4 7 Z" fill="white"/>
+  
+  <!-- Dollar sign -->
+  <text x="8" y="10" font-family="Arial" font-size="6" font-weight="bold" fill="#007bff" text-anchor="middle">$</text>
+</svg> 
