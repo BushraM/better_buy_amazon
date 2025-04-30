@@ -27,14 +27,14 @@ A Chrome extension that helps you save money by tracking Amazon product prices a
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/better_buy.git
+git clone https://github.com/BushraM/better_buy_amazon.git
 ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
 
 3. Enable "Developer mode" in the top right corner
 
-4. Click "Load unpacked" and select the `better_buy` directory
+4. Click "Load unpacked" and select the `better_buy_amazon` directory
 
 5. The Better Buy icon should appear in your Chrome toolbar
 
